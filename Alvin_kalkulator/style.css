@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    width: 400px; /* Lebar kalkulator */
+    margin: 0 auto; /* Menengahkan kalkulator */
+    padding: 50px;
+    border: 1px solid #181616;
+    border-radius: 50px;
+    background-color: #141414;
+    text-align: center; /* Menengahkan isi kalkulator */
+  }
+  
+  .calculator input[type="button"] {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    font-size: 50px;
+    
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .calculator input[type="text"] {
+    width: calc(100% - 20px); /* Lebar input - padding */
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  
